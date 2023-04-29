@@ -1,4 +1,19 @@
-#dir() integrated function which list all attributes of object
+import sys
+# print
+
+
+print("Hello Python")
+print('fffd'.capitalize())
+print(print)
+# input
+
+
+name = input("Input your name")  # Forever is 'str' in
+print(name)
+# n = sys.argv;
+# print (n);
+
+# dir() integrated function which list all attributes of object
 name = "str"
 print(dir(name))
 

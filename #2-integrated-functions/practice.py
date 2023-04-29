@@ -1,21 +1,21 @@
-#tests print()
+# tests print()
 
-#print (10, 'Taras', True)
-#print(print)
-#print(input)
-#print(dir)
+# print (10, 'Taras', True)
+# print(print)
+# print(input)
+# print(dir)
 
-#__xxxx__ - systems attributes (2 underscores)
-#We output list of all build in functions
-#print(dir(__builtins__))
+# __xxxx__ - systems attributes (2 underscores)
+# We output list of all build in functions
+# print(dir(__builtins__))
 
 
-#tests input()
-name = input ("Enter your name: ")
-#city = input ("Enter your city: ")
-#phone = input ("Enter your phone: ")
-#print ("name: "+name.upper()+", city: "+city.capitalize()+", phone: "+phone.capitalize())
-#print(dir(name))
+# tests input()
+name = input("Enter your name: ")
+# city = input ("Enter your city: ")
+# phone = input ("Enter your phone: ")
+# print ("name: "+name.upper()+", city: "+city.capitalize()+", phone: "+phone.capitalize())
+# print(dir(name))
 
 '''
 dir(name)
@@ -23,4 +23,4 @@ dir(name)
 '''
 
 print(name)
-print('*'.join(name.split('a')));
+print('*'.join(name.split('a')))
