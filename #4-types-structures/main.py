@@ -11,7 +11,7 @@ my_func = 10
 # types nd structures of data
 print('\n', dir(15), '\n')
 # mutable objects - list, dict, set, <user-defined-classes>
-# immutable objects - str, int, bool, float, tuple, None, range
+# immutable objects - str, int, bool, float, tuple, None, range, complex
 
 
 # name of variable - is a ref to object in memory
