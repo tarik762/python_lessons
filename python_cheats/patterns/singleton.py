@@ -182,7 +182,8 @@ def main():
     thread2.start()
 
 
+# main func
 if __name__ == "__main__":
-    main_url = ("https://www.geeksforgeeks.org/")
+    main_url = ("https://sarny-rada.gov.ua")
     parsed_url = urlparse(main_url)
     main()
