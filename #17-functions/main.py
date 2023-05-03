@@ -197,3 +197,16 @@ def f2(a, b):
 
 
 f2('abc', 'xyz')
+
+x = [1, 2, 3]
+
+
+def f2(x):
+    a = 42
+    x[1] = a
+    x = a
+    print(x)
+
+
+f2(x)
+print(x)
