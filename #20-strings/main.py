@@ -19,5 +19,5 @@ time = 8
 info = my_name+" likes "+my_hobby+" at "+str(time)+" o'clock"
 print(info)
 
-info = f"{my_name} likes {my_hobby} at {[1,2]} o'clock"
+info = f"{my_name} likes {my_hobby} at {time} o'clock"
 print(info)
