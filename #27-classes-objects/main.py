@@ -187,3 +187,45 @@ my_list.append(16)
 print(my_list)
 
 print(list.__subclasses__())
+
+
+# Getters and Setters
+# __prop_name - starting from '__' property is private
+# __method_name - starting from '__' method is private
+print('\n')
+
+
+class Dog:
+    __name: str
+    __color: str
+
+    def __init__(self: object, name: str, color: str) -> None:
+        self.__name = name
+        self.__color = color
+        pass
+
+    def __get_name(self: object) -> str:
+        return self.__name
+
+    def __get_color(self: object) -> str:
+        return self.__color
+
+    def __set_color(self: object, color: str) -> None:
+        self.__color = color
+        pass
+
+    def __set_name(self: object, name: str) -> None:
+        self.__name = name
+        pass
+
+    name = property(__get_name, __set_name)
+    color = property(__get_color, __set_color)
+
+
+dd = Dog('Spanky', 'Red')
+print(dd.color)
+dd.color = "White"
+print(dd.name)
+dd.name = 156
+print(dd.name)
+print(dd.color)
